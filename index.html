@@ -35,12 +35,14 @@
                 id="myFrame">
     </iframe>
     <script>
-        setTimeout(() => {
-            console.log("Trying to hide element");
-            var iframe = document.getElementById("myFrame");
-            iframe.contentWindow.document.getElementsByClassName('viewerBadge_container__1QSob')[0].style.visibility = 'hidden';
-            console.log("Element was hidden");
-        }, 5000)
+//         setTimeout(() => {
+//             console.log("Trying to hide element");
+//             var iframe = document.getElementById("myFrame");
+//             iframe.contentWindow.document.getElementsByClassName('viewerBadge_container__1QSob')[0].style.visibility = 'hidden';
+//             console.log("Element was hidden");
+//         }, 5000)
+        var frame = document.getElementById("myFrame")
+        frame.contentWindow.postMessage("loading site!", "https://share.streamlit.io/chen-yifu/personal_website/main/main.py");
     </script>
     </body>
     </html>
