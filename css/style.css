@@ -67,7 +67,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: center;
-    bottom: -5px;
+    bottom: -4px;
     right: -2px;
     padding: 19px;
     z-index: 5;
