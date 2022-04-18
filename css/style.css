@@ -52,3 +52,17 @@ body {
     margin-left: -100px;
     z-index: 2;
 }
+
+
+#made_by_me {
+    background: #FFFFFF;
+    font-size: 1.2em;
+    font-family: sans-serif, Arial;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 5;
+}
