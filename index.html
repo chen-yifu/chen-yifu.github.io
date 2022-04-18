@@ -10,15 +10,20 @@
 			document.getElementById("reload_msg").style.display = "block";
 		}, 3500);
 		setTimeout(function () {
-				document.getElementById("loading").style.display = "none";
-			}, 4500);
+				document.getElementById("loading_spinner").style.display = "none";
+		}, 4500);
 		
 		//var frame = document.getElementById("myFrame")	
 		//frame.contentWindow.postMessage("loading site!", "https://share.streamlit.io/chen-yifu/personal_website/main/main.py");
 	</script>
     <body>
-		<!-- <div id="loading"></div> -->
-		<img src="spinner.gif" id="loading">
+
+		<div class="loadingio-spinner-rolling-zyyiz4fd1b" id="loading_spinner">
+			<div class="ldio-z48wr8x33j">
+				<div></div>
+			</div>
+		</div>
+
 		<iframe src="https://share.streamlit.io/chen-yifu/personal_website/main/main.py"
 		sandbox="allow-same-origin allow-scripts"
 		frameborder="0"
