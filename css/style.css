@@ -33,7 +33,9 @@ body {
 }
 
 #reload_msg {
-    font-size: 2em;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    color: #262730;
     position: absolute;
     top: 20%;
     left: 20%;
