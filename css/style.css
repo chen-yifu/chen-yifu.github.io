@@ -14,6 +14,7 @@ iframe {
 
 iframe {
     display: block;
+    background: #FFFFFF;
     width: 100%;
     border: none;
     overflow-y: auto;
