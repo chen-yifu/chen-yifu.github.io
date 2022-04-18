@@ -24,6 +24,8 @@ iframe {
 
 body {
     overflow: hidden;
+    overflow-y: hidden;
+    
 }
 
 #reload_msg {
