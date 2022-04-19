@@ -34,15 +34,21 @@ body {
 }
 
 #reload_msg {
-    font-size: 1.3em;
+    font-size: 150%;
     font-family: sans-serif;
     color: #262730;
     position: absolute;
     top: 50%;
-    left: 30%;
-    margin-top: -250px;
+    width: 100%;
+    margin-top: -300px;
     z-index:-1;
-    display: none
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font: sans-serif;
+    font-size: 1.1em;
+    align-items: center;
+    display: none;
 }
 
 #loading {
@@ -52,6 +58,7 @@ body {
     justify-content: center;
     top: 50%;
     left: 50%;
+    width: 100%;
     margin-top: -100px;
     margin-left: -100px;
     z-index: 2;
@@ -97,8 +104,8 @@ body {
 
 .ldio-z48wr8x33j div {
     animation: ldio-z48wr8x33j 0.8695652173913042s linear infinite;
-    top: 125.49999999999999px;
-    left: 125.49999999999999px
+    top: 100px;
+    left: 100px
 }
 
 .loadingio-spinner-rolling-zyyiz4fd1b {
@@ -107,6 +114,7 @@ body {
     justify-content: center;
     top: 50%;
     left: 50%;
+    width: 100%;
     margin-top: -150px;
     margin-left: -100px;
     z-index: 2;
