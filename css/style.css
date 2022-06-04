@@ -12,6 +12,10 @@ iframe {
     border: none;
 }
 
+footer {
+    visibility: hidden;
+}
+
 iframe {
     display: block;
     position: absolute;
